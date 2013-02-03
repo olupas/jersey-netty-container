@@ -17,7 +17,7 @@ public class JerseyNettyContainerTest extends JerseyTest {
 	private static ClientConfig clientConfig;
 
 	static {
-		clientConfig = new DefaultClientConfig(ProbeResource.class);
+		clientConfig = new DefaultClientConfig(com.devsprint.jersey.api.netty.container.test.ProbeResource.class);
 
 	}
 
