@@ -18,8 +18,9 @@ public class Bootstrap {
 
 
     protected static URI getBaseURI() {
-           return UriBuilder.fromUri("http://localhost/").port(9998).build();
-       }
+        return UriBuilder.fromUri("http://localhost/").port(9998).build();
+    }
+
     public static void main(String[] args) {
 
         ClassNamesResourceConfig resourceConfig = new ClassNamesResourceConfig(ProbeResource.class);
